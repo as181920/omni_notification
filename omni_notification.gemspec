@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = OmniNotification::VERSION
   s.authors     = ["Andersen Fan"]
   s.email       = ["as181920@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of OmniNotification."
-  s.description = "TODO: Description of OmniNotification."
+  s.homepage    = ""
+  s.summary     = "Common notification support"
+  s.description = "Create notification for any target differed by notify type"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]

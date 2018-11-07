@@ -1,24 +1,18 @@
 # OmniNotification
-Short description and motivation.
+通用通知功能(Rails engine)
 
 ## Usage
-How to use my plugin.
 
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omni_notification'
+gem 'omni_notification', git: "git@github.com:as181920/omni_notification.git", branch: "master"
 ```
 
 And then execute:
 ```bash
 $ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install omni_notification
 ```
 
 ## Contributing
