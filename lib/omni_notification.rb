@@ -1,5 +1,9 @@
 require "omni_notification/engine"
 
 module OmniNotification
-  # Your code goes here...
+  extend ActiveSupport::Concern
+
+  included do
+    has_many :notifications, class_name: "::OmniNotification", as: :notifiable, dependent: :destroy
+  end
 end
